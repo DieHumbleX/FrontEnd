@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Home</title>
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=site:shadiwadi.com ' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+<link rel="stylesheet" href="indexCSS.css">
+
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+</head>
+
+<body>
+<div id="bar1" >
+      <div id="leftSideBar1">
+        <div id="logo">
+          <img src="images/mainlogo.png" style="margin-left:20px;height:40px; width:40px;">
+        </div>
+        <h id="logoName">ShadiWadi.com </h>
+      </div>
+      <div id="rightSideBar1">
+
+        <div id="SearchBar">
+          <form action="./results.php" method="get">
+          <input type="text" name="Search" size="30" maxlength="255" placeholder="Search Here...">
+          <input type="submit" value="Search"/> 
+          </form>
+
+        </div>
+         <div id="LogButtons">
+          <!--<a href="#">test1</a>
+          <a href="#">test2</a>-->
+          <!--
+          <button>Log In</button>
+          <button>Sign Up</button>-->
+          <a href="" class="LogButtonClass">Log Out</a>
+          <!--<a href="" class="LogButtonClass">Sign Up</a>-->
+        </div>
+        <div id="profile">
+          <a href="" id="viewProfile">My Profile</a>
+          <a href="" id="user" >Username</a>
+        </div> 
+        
+      </div>
+    </div>
+
+    <div id="bar2">
+      <div id="leftSideBar2"></div>
+      <div id="rightSideBar2">
+
+        <div id="pageMenu">
+          <a href="">Decorator</a>
+           <a href="">Halls</a>
+            <a href="">Pandit</a>
+            <a href="">Jewellery</a>
+             <a href="">Travel</a>
+              <a href="">Photography</a>
+               <a href="">Catering</a>
+               <a href="">Hotel</a>
+                <a href="">parlour</a>
+                 <a href="">Clothing</a>
+                  <a href="">Security</a>
+
+
+          <!--<button>bar2</button>
+          <button>Sign Up</button>-->
+        </div>
+        </div>
+      </div>
+   
+ <!-- <ul id="menu">
+    <li>
+      <a href="#">1</a>
+    </li>
+    <li>
+      <a href="#">2</a>
+    </li>
+    <li>
+      <a href="">3</a></li>
+  </ul>-->
+
+	<ul class="navigation">
+		<li data-slide="1">Welcome</li>
+		<li data-slide="2">All You Want</li>
+		<li data-slide="3">Anytime Anywere</li>
+		<li data-slide="4">Join Us</li>
+	</ul>
+
+
+
+          
+	
+	
+
+	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+    <span class="parallaxbg1">welcome</span>
+		
+		<a class="button" data-slide="2" title=""></a>
+
+	</div><!--End Slide 1-->
+
+
+
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+		<div class="wrapper">
+
+			<img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="">
+			<img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="">
+			<img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
+			<img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt="">
+			<img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="">
+			<img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="">
+			<img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
+			<img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt="">	
+
+		</div>
+
+		<span class="slideno">Page 2</span>
+        <span class="parallaxbg2">all you want, find here</span>
+		<a class="button" data-slide="3" title=""></a>
+
+	</div><!--End Slide 2-->
+
+
+
+
+
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		
+
+		<span class="slideno">Page 3</span>
+        <span class="parallaxbg3">24X7</span>
+		<a class="button" data-slide="4" title=""></a>
+
+	</div><!--End Slide 3-->
+
+
+
+
+
+
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
+		
+
+		<span class="slideno">Page 4</span>
+		<span class="parallaxbg4">join us and relax</span>
+
+	</div><!--End Slide 4-->
+
+<div id="footer">
+  <a href="AboutUs1.html">About Us</a>
+  <a href="ContactUs1.html">Contact Us</a>
+</div>
+			
+
+
+</body>
+</html>

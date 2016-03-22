@@ -1,0 +1,33 @@
+$(document).ready(function(){
+
+	$(".main").onepage_scroll({
+	   sectionContainer: "section", 
+	   easing: "ease",  cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+	   animationTime: 900,
+	   pagination: true, 
+	   updateURL: false
+	});
+	
+});
+
+function init() {
+	
+	// start up after 2sec no matter what
+    window.setTimeout(function(){
+        start();
+    }, 2000);
+}
+
+// fade in experience
+function start() {
+	
+	$('body').removeClass("loading").addClass('loaded');
+	
+}
+
+$(window).load(function() {
+	
+	// fade in page
+	init();
+	
+});

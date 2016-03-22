@@ -1,0 +1,192 @@
+.container {
+  max-width: 960px;
+  margin: 50 auto;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  //background-color: #c24343;
+  //background-color: #c24343;
+  background-color: #892B89;
+  //text-shadow: 2px 2px 4px purple;
+  //background-image: url("images/index/bkgrnd.jpg");
+}
+/*#menu
+{
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+ul,menu{
+  display:block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after:1em;
+  -webkit
+}*/
+#bar1
+{
+  z-index: 10;
+  float: top;
+  display: inline-block;
+  overflow: ;
+  position: relative;
+  height: 35px;
+  width: 100%;
+  //min-width: 1500px;
+  //background-color: #E42C3D;
+  background-color: #000;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+#bar2 
+{
+  z-index: 8;
+  //overflow: auto;
+  overflow: hidden;
+  
+  //display: inline-block;
+  
+  height: 35px;
+  width: 100%;
+  //min-width: 1500px;
+  background-color: #7c4dff;
+  
+  margin-left: auto;
+  margin-right: auto;
+float: top;
+
+}
+#searchBar 
+{ 
+margin-top: 54px;
+position:relative;
+  margin: 10px 20px 5px 10px;
+  float: left;
+}
+#logo{
+  float: left;
+  margin-right: 20px;
+}
+#logoName
+{
+  float: left;
+  color: white;
+  font-size: 30px;
+  margin-right: 100px;
+  margin-top: -5px;
+}
+#LogButtons
+{//display: inline-block;
+  //position: fixed;
+  float: right;
+
+  color: white;
+  
+  margin-right: 10px;
+  margin-top: -25px;
+  
+}
+
+	
+#LogButtons a:hover{
+  color: #f3faef;
+}
+
+#LogButtons a{
+  font-family: "Segoe UI",Arial,sans-serif !important;
+  color: black;
+}
+
+.LogButtonClass
+{
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid ;
+  background-color: #6bb642;
+  padding: 5px 5px 5px 5px ;
+  margin-right:20px;
+  
+}
+#bar2 a{
+  color: white;
+text-decoration: none;
+font-family: "Segoe UI",Arial,sans-serif !important;
+padding-left: 20px;
+padding-right: 20px;
+}
+#user
+{
+  float: right;
+  margin: 10px auto;
+  //color: white;
+  
+  color: white;
+  font-size: 20px;
+  margin-right: px;
+  margin-top: -30px;
+}
+#viewProfile
+{
+  float: right;
+  margin: 10px auto;
+
+  color: white;
+  font-size: 20px;
+  margin-right: 150px;
+  margin-top: -30px;
+}
+#bar1 a{
+color: white;
+text-decoration: none;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+font-family: "Segoe UI",Arial,sans-serif !important;
+}
+
+#pageMenu
+{
+  float: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  //text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 0px 00px 4px auto;
+  //word-spacing: 20px;
+}
+
+
+	
+#footer
+{
+  z-index: 10;
+  float: bottom;
+  //display: inline-block;
+  overflow: hidden;
+  //position: fixed;
+  height: 40px;
+  width: 100%;
+  //min-width: 1500px;
+  //background-color: #35373c;
+  background-color: #000;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer a{
+  color: white;
+text-decoration: none;
+font-family: "Segoe UI",Arial,sans-serif !important;
+padding-left: 20px;
+padding-right: 20px;
+}
